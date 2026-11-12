@@ -1,0 +1,16 @@
+{
+  "name": "gakkai-slide",
+  "metadata": {
+    "description": "学会・勉強会のスライドを作るスキルを配布するマーケットプレイス"
+  },
+  "owner": {
+    "name": "すんなりわかる"
+  },
+  "plugins": [
+    {
+      "name": "gakkai-slide",
+      "source": "./",
+      "description": "抄録や原稿から、学会発表・勉強会でそのまま使えるシンプルなスライド（.pptx）を作る。"
+    }
+  ]
+}

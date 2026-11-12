@@ -1,0 +1,12 @@
+{
+  "name": "gakkai-slide-build",
+  "private": true,
+  "type": "module",
+  "description": "原稿（JSON）から学会・勉強会用のスライド（.pptx）を作る",
+  "scripts": {
+    "sample": "node build.mjs ../../../examples/sample.json -o ../../../examples/sample.pptx"
+  },
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}

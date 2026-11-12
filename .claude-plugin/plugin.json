@@ -1,0 +1,13 @@
+{
+  "name": "gakkai-slide",
+  "description": "抄録や原稿から、学会発表・勉強会でそのまま使えるシンプルなスライド（.pptx）を作るスキル。COI開示・3本線の表・結論で終わる構成・発表時間の見積もりつき。",
+  "version": "1.0.0",
+  "author": {
+    "name": "すんなりわかる",
+    "url": "https://github.com/syunkuro123"
+  },
+  "homepage": "https://github.com/syunkuro123/gakkai-slide",
+  "repository": "https://github.com/syunkuro123/gakkai-slide",
+  "license": "MIT",
+  "keywords": ["slides", "presentation", "pptx", "academic", "conference", "japanese", "nursing"]
+}
