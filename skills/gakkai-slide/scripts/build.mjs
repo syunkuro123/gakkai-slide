@@ -291,6 +291,8 @@ if (noteChars) {
   const lim = meta.time_limit_min ? ` / 持ち時間 ${meta.time_limit_min}分` : "";
   console.log(`  読み原稿: ${Math.round(noteChars)}字 → 約${minutes.toFixed(1)}分（1分${CHARS_PER_MIN}字で計算）${lim}`);
   if (meta.time_limit_min && minutes > meta.time_limit_min) warnings.push(`  全体: 読み原稿が持ち時間を超えています（約${minutes.toFixed(1)}分 > ${meta.time_limit_min}分）`);
+  else if (meta.time_limit_min && minutes < meta.time_limit_min * 0.6)
+    warnings.push(`  全体: 読み原稿が持ち時間の6割に届きません（約${minutes.toFixed(1)}分 / ${meta.time_limit_min}分）。話す内容を足すか、持ち時間を確かめる`);
 }
 if (warnings.length) {
   console.log(`点検で気になった所（${warnings.length}件）:`);
